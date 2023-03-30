@@ -2,12 +2,14 @@
   [
     "name" : "MyTask",
     "parameters" : [
-        "MyFirstParam" : new StringDataType(),
-        "MySecondParam" : new StringDataType(),
-        "MyThirdParam" : new ObjectDataType()
+        "name" : new StringDataType(),
+        "surname" : new StringDataType(),
+        "nickname" : new StringDataType()
     ],
     "results" : [
-        "Result" : new ObjectDataType("java.util.Map")
+        "name" : new StringDataType(),
+        "surname" : new StringDataType(),
+        "nickname" : new StringDataType()
     ],
     "displayName" : "My Task",
     "icon" : ""
